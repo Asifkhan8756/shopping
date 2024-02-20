@@ -101,6 +101,11 @@
     display: flex;
 }
 
+.nav-cart i, .nav-cart p{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-cart i{
     font-size: 30px;
 }
@@ -141,6 +146,7 @@
     border: 2px solid black ;
     box-sizing: border-box;
     width: 400px;
+    display: inline-block;
 
 }
 .mainrside a{
@@ -173,6 +179,7 @@ main{
     background-color: white;
     box-sizing: border-box;
     padding: 25px 23px 10px;
+    border: 5px solid lightblue;
 }
 
 .box-img{
